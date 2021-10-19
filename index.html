@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MLU-Explain</title>
+    <meta name="description" content="MLU-Explain" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.19717a7e.css" />
+  </head>
+  <body>
+    <main>
+      <section id="intro">
+        <div class="wrapper">
+          <span class="article-cardSpan">
+            <span class="icon">
+              <svg
+                width="60"
+                height="100"
+                viewBox="0 0 210 180"
+                fill="none"
+                xmlns="https://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0)">
+                  <g fill="#232F3E">
+                    <path
+                      d="M90.664 83.184c6.219 0 11.277-5.055 11.277-11.293v-.067c0-6.234-5.047-11.293-11.277-11.293-6.219 0-11.281 5.059-11.281 11.293v.067c0 6.238 5.05 11.293 11.281 11.293zM143.305 83.184c6.218 0 11.281-5.055 11.281-11.293v-.067c0-6.234-5.051-11.293-11.281-11.293-6.215 0-11.278 5.059-11.278 11.293v.067c0 6.238 5.051 11.293 11.278 11.293z"
+                    />
+                  </g>
+                  <path
+                    d="M163.586 159.402h10.023v-36.761h-10.023v36.761zM60.36 159.402h10.027v-36.761H60.359v36.761z"
+                    fill="#232F3E"
+                  />
+                  <path
+                    d="M182.16 30.078H51.805V10.023H182.16v20.055zm0 73.531H51.805V40.106H182.16v63.503zm-37.601 65.18H89.406v-55.148h55.153v55.148zM0 0v10.023h15.879V46.79h10.023V10.023h15.88v103.618h37.605v65.175H96.93v36.762h10.027v-36.762h20.059v36.762h10.023v-36.762h17.547v-65.175h37.602V10.023h41.781V0"
+                    fill="#232F3E"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <path fill="#fff" d="M0 0h233.97v215.58H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+            <span class="text"
+              ><h1>MLU-EXPL<span id="ai">AI</span>N</h1></span
+            >
+          </span>
+          <h3 class="subtitle">
+            Visual explanations of core machine learning concepts.
+          </h3>
+          <br />
+          <p id="intro-text" style="text-align: left">
+            <a href="https://aws.amazon.com/machine-learning/mlu/"
+              >Machine Learning University (MLU)</a
+            >
+            is an education initiative designed to teach Amazon's technical
+            community machine learning theory and practical application. We
+            offer a number of courses on different machine learning topics.
+            <br /><br />
+            As supplementary material, MLU-Explain exists to explain core
+            machine learning concepts using visual essays in a fun, informative,
+            and accessible manner. These essays don't yet cover a large number
+            of the concepts covered in our MLU courses, but we are working to
+            add more. Stay tuned!
+          </p>
+        </div>
+      </section>
+      <div class="articles-container">
+        <div
+          class="article-card"
+          onclick="location.href='/explain/random-forest/';"
+          style="cursor: pointer"
+        >
+          <div class="imgBx"><img src="rfimg.png" /></div>
+          <div class="content">
+            <h2 class="article-title">The Random Forest Algorithm</h2>
+            <p class="article-description">
+              How the majority vote and well-placed randomness can enhance the
+              decision tree model.
+            </p>
+          </div>
+        </div>
+        <div
+          class="article-card"
+          onclick="location.href='/explain/bias-variance';"
+          style="cursor: pointer"
+        >
+          <div class="imgBx"><img src="bias-variance.8475ab7f.png" /></div>
+          <div class="content">
+            <h2 class="article-title">The Bias-Variance Tradeoff</h2>
+            <p class="article-description">
+              Learn the tradeoff between under- and over-fitting models, how it
+              relates to bias and variance, and explore interactive examples
+              related to LASSO and KNN.
+            </p>
+          </div>
+        </div>
+        <div
+          class="article-card"
+          onclick="location.href='/explain/double-descent/';"
+          style="cursor: pointer"
+          id="card1"
+        >
+          <div class="imgBx"><img src="double-descent1.0997faab.png" /></div>
+          <div class="content">
+            <h2 class="article-title">Double Descent 1</h2>
+            <p class="article-description">
+              A visual introduction to the double descent phenomena in modern
+              machine learning. Learn what the phenomena is, how it relates to
+              the bias-variance tradeoff, the importance of the interpolation
+              regime, and a theory for what's causing the phenomena. on.
+            </p>
+          </div>
+        </div>
+        <div
+          class="article-card"
+          onclick="location.href='/explain/double-descent-math/';"
+          style="cursor: pointer"
+        >
+          <div class="imgBx"><img src="double-descent2.4bc792e8.png" /></div>
+          <div class="content">
+            <h2 class="article-title">Double Descent 2</h2>
+            <p class="article-description">
+              A more in-depth explanation of the double descent phenomena. The
+              article builds on the cubic spline example introduced in
+              <span class="bold">Double Descent 1</span>, describing in
+              mathematical detail what's occuring during double descent.
+            </p>
+          </div>
+        </div>
+        <div
+          class="article-card"
+          onclick="location.href='/explain/train-test-validation/';"
+          style="cursor: pointer"
+        >
+          <div class="imgBx"><img src="train-test.ec816050.png" /></div>
+          <div class="content">
+            <h2 class="article-title">Train, Test, & Validation Splits</h2>
+            <p class="article-description">
+              Learn why best practice recommends to split your dataset into a
+              training set, a testing set, and a validation set, and explore the
+              utility of each with a live machine learning model.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js.e9385a84.js"></script>
+    <script>
+      alert(
+        "This is only for demo purposes for vixsai 2021! Please do not share or mention publically! Thanks! :)"
+      );
+    </script>
+  </body>
+</html>

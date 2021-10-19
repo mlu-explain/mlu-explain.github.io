@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/index.js"],"names":["scrollFunc","console","log"],"mappings":";AAAA,SAASA,IACPC,QAAQC,IAAI","file":"js.e9385a84.js","sourceRoot":"..","sourcesContent":["function scrollFunc() {\n  console.log(\"eraera\");\n}\n"]}
