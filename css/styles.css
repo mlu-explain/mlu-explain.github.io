@@ -452,8 +452,8 @@ button.content-button > a {
 
 @media (max-width: 769px) {
   #intro {
-    padding-bottom: 1rem;
-    min-height: 80vh;
+    padding-bottom: 0rem;
+    min-height: 60vh;
   }
   #intro-container {
     grid-template-columns: 58% 41%;
