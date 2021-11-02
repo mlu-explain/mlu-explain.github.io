@@ -456,13 +456,13 @@ button.content-button > a {
     min-height: 80vh;
   }
   #intro-container {
-    grid-template-columns: 62% 38%;
-    column-gap: 0.5rem;
+    grid-template-columns: 58% 41%;
+    column-gap: 1rem;
     max-width: 96%;
   }
   #image-container {
     margin-top: 10%;
-    height: 30%;
+    height: 70%;
   }
 }
 
