@@ -367,7 +367,7 @@ button.content-button > a {
   max-width: 100%;
   width: 342px;
   width: 100%;
-  height: 200px;
+  height: 250px;
   border: 0.5px solid #232f3e;
 }
 
@@ -431,6 +431,9 @@ button.content-button > a {
   #image-container {
     margin-top: 10%;
     height: 98%;
+  }
+  .articles-container .article-card .imgBx img {
+    height: 200px;
   }
 }
 
