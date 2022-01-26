@@ -1,3 +1,4 @@
+// From Preet Shihn https://github.com/rough-stuff/rough-notation
 var RoughNotation = (function (t) {
   "use strict";
   const e = "http://www.w3.org/2000/svg";
