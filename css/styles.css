@@ -383,12 +383,12 @@ button.content-button > a {
 }
 
 .article-title {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: bold;
   visibility: visible;
   font-family: AmazonEmberDisplayHeavy;
   color: #232f3e;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .article-description {
