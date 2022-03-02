@@ -16,7 +16,7 @@ const a1 = RoughNotation.annotate(n1, {
 const a2 = RoughNotation.annotate(n2, {
   type: "underline",
   color: underlineColor,
-  strokeWidth: 1.25,
+  strokeWidth: 3.5,
   iterations: 2,
   animationDuration: 1000,
 });
