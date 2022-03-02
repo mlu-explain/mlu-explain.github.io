@@ -433,8 +433,9 @@ button.content-button > a {
     margin-top: 10%;
     height: 98%;
   }
-  .articles-container .article-card .imgBx img {
-    /* height: 200px; */
+  #articles-section {
+    padding: 2px;
+    max-width: 90%;
   }
 }
 
@@ -442,6 +443,10 @@ button.content-button > a {
   .subtitle {
     font-size: 1.15rem;
     width: 95%;
+  }
+  #articles-section {
+    padding: 2px;
+    max-width: 96%;
   }
   #intro-container {
     grid-template-columns: 60% 40%;
@@ -495,8 +500,8 @@ button.content-button > a {
     font-size: 2rem;
   }
   #articles-section {
-    padding: 0;
-    max-width: 95%;
+    padding: 2px;
+    max-width: 98%;
   }
   .articles-container {
     grid-template-columns: 100%;
