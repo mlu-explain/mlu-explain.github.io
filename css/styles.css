@@ -160,7 +160,7 @@ body {
 /* GENERAL */
 /* ====================== */
 * {
-  font-family: AmazonEmberDisplayLight;
+  font-family: AmazonEmber;
   color: #232f3e;
 }
 
@@ -251,15 +251,17 @@ main h1#title {
 
 #mlu-acronym {
   color: #fc6a49;
+  font-family: AmazonEmberDisplayHeavy;
   font-weight: bold;
 }
 
 #mlu-link {
   text-decoration-thickness: 8%;
+  font-family: AmazonEmberDisplayHeavy;
 }
 
 #mlu-link:hover {
-  text-decoration-thickness: 10%;
+  text-decoration-thickness: 12%;
 }
 
 .heavy {
@@ -285,7 +287,7 @@ main h1#title {
 .section-segue {
   font-size: 1.5rem;
   width: 100%;
-  font-family: AmazonEmberDisplayLight;
+  font-family: AmazonEmberDisplayHeavy;
   background-size: 100% 10px;
   text-align: left;
 }
@@ -383,12 +385,13 @@ button.content-button > a {
 }
 
 .article-title {
-  font-size: 42px;
+  font-size: 1.8rem;
   font-weight: bold;
   visibility: visible;
   font-family: AmazonEmberDisplayHeavy;
   color: #232f3e;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
 }
 
 .article-description {
@@ -508,7 +511,6 @@ button.content-button > a {
   }
   .articles-container .article-card .imgBx img {
     width: 100%;
-    /* height: 150px; */
     border: 2px solid #232f3e;
   }
   .articles-container .article-title {
