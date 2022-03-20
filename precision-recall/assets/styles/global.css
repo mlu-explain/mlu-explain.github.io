@@ -111,12 +111,6 @@ body {
   font-family: "Amazon Ember Display Heavy";
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Amazon Ember Display Heavy";
-}
-
 /* mobile */
 @media screen and (max-width: 950px) {
   .body-text {
