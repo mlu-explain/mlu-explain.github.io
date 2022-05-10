@@ -392,6 +392,7 @@ button.content-button > a {
   color: #232f3e;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .article-description {
