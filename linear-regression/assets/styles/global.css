@@ -125,10 +125,6 @@ p {
 }
 
 .tooltip-div {
-  border: 4px solid var(--squidink);
-  box-shadow: 1px 1px 1px #ddd;
-  background: white;
-  /* border-radius: 4px; */
   padding: 4px;
   position: absolute;
   width: 400px;
@@ -163,5 +159,17 @@ hr {
 
   .interpretation-header {
     font-size: 1rem;
+  }
+
+  .tooltip-div {
+    padding: 3px;
+    width: 200px;
+    margin: 10px 4px;
+    font-size: 12px;
+    display: none;
+  }
+
+  .info-tooltip {
+    display: none;
   }
 }
