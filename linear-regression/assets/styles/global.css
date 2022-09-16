@@ -2,12 +2,9 @@
   /* Fonts 
   see: http://typography.aka.amazon.com/
   */
-  /* --font-main: "Amazon Ember"; */
   --font-mono: "Amazon Ember Mono";
   --font-heavy: "Amazon Ember Display Heavy";
-  /* --font-light: "Amazon Ember Display Light"; */
   --font-main: var(--font-mono);
-  /* --font-heavy: var(--font-mono); */
   --font-light: var(--font-mono);
 
   /* Colors 
@@ -115,7 +112,6 @@ p {
 
 .info-tooltip {
   color: var(--smile);
-  /* font-family: var(--font-heavy); */
 }
 
 .interpretation-header {
@@ -138,6 +134,30 @@ hr {
   margin: 3rem auto;
   width: 3%;
   border: 3px solid var(--smile);
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--stone);
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-color: var(--squidink);
+  margin: 8px;
+  max-width: 300px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--smile);
+  cursor: pointer;
 }
 
 /* mobile */
