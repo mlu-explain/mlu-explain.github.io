@@ -47,13 +47,13 @@
 
   --bg: var(--paper);
   --fg: var(--anchor);
-  --default: var(--darksquidink);  /* text color */
+  --default: var(--darksquidink); /* text color */
   --accept: var(--peach);
   --reject: var(--cosmos);
   --primary: var(--accept);
   --secondary: var(--accept);
   --markings: var(--sky);
-  --highl: #2074d53F;
+  --highl: #2074d53f;
   --group_circles: var(--default);
   --group_triangles: var(--default);
 
@@ -94,7 +94,7 @@ body {
 .highlight {
   display: inline;
   padding: 0.15em 0;
-  background: var(--highl); 
+  background: var(--highl);
   box-shadow: 0.2em 0 0 var(--highl), -0.2em 0 0 var(--highl);
 }
 
