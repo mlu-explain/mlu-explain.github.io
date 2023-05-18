@@ -218,4 +218,11 @@ hr {
   .info-tooltip {
     display: none;
   }
+
+  hr {
+    margin: 5px auto;
+    width: 80%;
+    border: 1px solid var(--squidink);
+    opacity: 0.6;
+  }
 }
