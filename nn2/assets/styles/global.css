@@ -188,6 +188,11 @@ hr {
 
 /* mobile */
 @media screen and (max-width: 950px) {
+  :root {
+    --viz-height: 60vh;
+    --max-viz-height: 475px;
+  }
+
   .body-text {
     max-width: 90%;
     font-size: 16px;
