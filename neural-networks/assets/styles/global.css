@@ -132,8 +132,9 @@ p {
 }
 
 .info-tooltip {
-  color: var(--smile);
-  font-size: 0.9rem;
+  color: var(--darksquidink);
+  font-size: 12px;
+  font-family: var(--font-light);
 }
 
 .interpretation-header {
@@ -145,11 +146,12 @@ p {
 .tooltip-div {
   padding: 4px;
   position: absolute;
-  width: 400px;
+  width: 300px;
   background: var(--squidink);
   color: var(--white);
   margin: 10px 4px;
-  font-size: 14px;
+  font-size: var(--size-default);
+  font-family: var(--font-light);
 }
 
 hr {
